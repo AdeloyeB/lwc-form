@@ -1,0 +1,26 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 01-20-2022
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="slds-align_absolute-center">
+        <form class="form slds-box">
+            <h2 class="form-header">GET IN TOUCH</h2>
+            <p type="Name:" class="form-paragraph"><input name="firstname" class="form-input" onchange={handleChange} placeholder="Write your first name here.."></input></p>
+
+            <p type="Last Name:" class="form-paragraph"><input name="lastname" class="form-input" onchange={handleChange} placeholder="Write your last name here"></input></p>
+
+            <p type="Email:" class="form-paragraph"><input name="email" class="form-input" onchange={handleChange} placeholder="Let us know how to contact you back.."></input></p>
+
+
+            <p type="Mobile:" class="form-paragraph"><input name="phone" class="form-input" onchange={handleChange} placeholder="What is your phone number.."></input></p>
+
+            <p type="Company:" class="form-paragraph"><input name="company" class="form-input" onchange={handleChange} placeholder="Where are you currently employed"></input></p>
+
+            <button class="slds-align_absolute-center submit-button" onclick={handleSubmit}>Submit</button>
+        </form>
+    </div>
+</template>
